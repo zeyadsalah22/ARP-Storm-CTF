@@ -1,4 +1,4 @@
-# ARP Storm CTF Solution
+# ARP Storm CTF write up
 
 This repository is a tutroial for solving the ARP STORM CTF in CyberTalents website, you can access the problem through this [Link](https://cybertalents.com/challenges/network/arp-storm)
 
