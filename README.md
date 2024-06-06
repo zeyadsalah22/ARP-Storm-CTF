@@ -4,11 +4,13 @@
 
 The first thing we can do when we open the PCAP is to search for any abnormalities in it, if we take a look at the image below we can notice something strange, we know that the opcode can only be 0 or 1 referring to request and reply operations but in the PCAP we find that the opcode is strange it is always Unknown ARP opcode 0x…. , so from here we can start to check the abnormality we found.
 
+[![ARP STORM 1](https://github.com/zeyadsalah22/LAN-Chat-using-Python-socket/blob/main/images/lanchat1.png)](https://github.com/zeyadsalah22/LAN-Chat-using-Python-socket/blob/main/images/lanchat1.png)
 
 ## Searching for the way to the flag
 
 After we found that unusual thing, we can check all the abnormal opcodes to determine a pattern or something, after doing that we discover that they all have the same representation except for the character in the middle which change for each opcode as shown in the image below, so if we can get all those characters from the opcodes may be we can get the flag or encoded version of it.
 
+[![LAN Chat 1](https://github.com/zeyadsalah22/LAN-Chat-using-Python-socket/blob/main/images/lanchat1.png)](https://github.com/zeyadsalah22/LAN-Chat-using-Python-socket/blob/main/images/lanchat1.png)
 
 
 ## First step to get the flag
